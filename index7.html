@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Operadores lógicos && (y) en las estructuras condicionales.</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        let num1 = parseFloat(prompt('Ingrese el primer número:'));
+        let num2 = parseFloat(prompt('Ingrese el segundo número:'));
+        let num3 = parseFloat(prompt('Ingrese el tercer número:'));
+
+        if (num1 > num2 && num1 > num3) {
+            document.write('el primer número es el mayor ' + num1);
+        } else {
+            if (num2 > num3) {
+                document.write('el segundo número es el mayor ' + num2);
+            } else {
+                document.write('el tercer número es el mayor ' + num3);
+            }
+        }
+    </script>
+
+</body>
+
+</html>
